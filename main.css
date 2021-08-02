@@ -38,4 +38,27 @@ nav {
     border-right: 1px solid #677d81;
   
   }
+  /*search END*/
+/******************************************************/
+/*drop down list START*/
+
+.drop-down-list {
+    position: relative;
+    width: 120px;
+    cursor: pointer;
+  }
+  
+  .drop-down-list > button {
+    font-weight: bold;
+  }
+  
+  .drop-down-list__button {
+    width: 100%;
+    padding: 7px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+  }
   
