@@ -86,4 +86,17 @@ nav {
   .drop-down-list__option:last-child {
     border-bottom: 1px solid #677d81;
   }
+  .arrow-bottom {
+    background-image: url('https://github.com/egormolchanov/sort-goods/blob/master/image/bottom-arrow.png?raw=true');
+    background-size: cover;
+    height: 15px;
+    width: 15px;
+  }
+  
+  .arrow-top {
+    background-image: url('https://github.com/egormolchanov/sort-goods/blob/master/image/top-arrow.png?raw=true');
+    background-size: cover;
+    height: 15px;
+    width: 15px;
+  }
   
