@@ -16,3 +16,14 @@ h1 {
     text-align: center;
     color: white;
 }
+button {
+    border: none;
+    outline: none;
+    text-align: inherit;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
