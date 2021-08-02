@@ -27,3 +27,15 @@ nav {
     display: flex;
     justify-content: center;
 }
+/*******************************************************/
+/*search START*/
+
+#search {
+    border: none;
+    outline: none;
+    width: 120px;
+    padding: 5px;
+    border-right: 1px solid #677d81;
+  
+  }
+  
