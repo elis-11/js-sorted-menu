@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', Verdana, sans-serif;
+    background:  #75b4c0;
+    user-select: none;
+}
+
+img {
+    -webkit-user-drag: none;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
