@@ -161,3 +161,17 @@ nav {
     font-family: 'Signika', sans-serif;
   }
   
+.info-block h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+  
+  .info-block ol {
+    padding-left: 1.25rem;
+  }
+  
+  .info-block li {
+    line-height: 1.5;
+  }
+  
