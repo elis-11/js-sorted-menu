@@ -61,4 +61,29 @@ nav {
     align-items: center;
     background: white;
   }
+  .drop-down-list__button img {
+    height: 15px;
+  }
+  
+  .drop-down-list__options {
+    position: absolute;
+    left: 0; right: 0; top: 10px;
+  }
+  
+  .drop-down-list__options ul {
+    padding: 0;
+  }
+  
+  .drop-down-list__option {
+    list-style-type: none;
+    border-top: 1px solid #677d81;
+  }
+  
+  .drop-down-list__options .drop-down-list__button:hover {
+    background: #e2e2e2;
+  }
+  
+  .drop-down-list__option:last-child {
+    border-bottom: 1px solid #677d81;
+  }
   
