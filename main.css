@@ -100,3 +100,27 @@ nav {
     width: 15px;
   }
   
+/*drop down list END*/
+/********************************************************/
+/*sorting goods START*/
+
+.showcase-goods {
+    margin: 20px auto;
+    max-width: 1100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 250px);
+    grid-auto-rows: auto;
+    grid-gap: 20px;
+    justify-content: center;
+  }
+  
+  .goods {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 250px;
+    padding: 10px;
+    background: white;
+  }
+  
