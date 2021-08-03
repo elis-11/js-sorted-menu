@@ -69,3 +69,11 @@ const addGoods = () => {
 }
 
 addGoods();
+//drop down list
+const dropDown = () => {
+    const dropDownListOptions = document.querySelector('.drop-down-list__options'),
+        arrowButton = document.querySelector('.arrow-button');
+    dropDownListOptions.classList.toggle('hide');
+    arrowButton.classList.toggle('arrow-bottom');
+    arrowButton.classList.toggle('arrow-top');
+}
