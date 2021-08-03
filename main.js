@@ -93,3 +93,23 @@ const sortGoods = event => {
     
     addGoods();
 }
+dropDownList.addEventListener('click', dropDown);
+dropSownListOption.forEach( el => el.addEventListener('click', sortGoods));
+
+//search
+search.oninput = () => {
+    const value = search.value.trim().toLowerCase(),
+          headlineGoods = document.querySelectorAll('.goods h3');
+
+    switch (value) {
+        case '':
+            headlineGoods.forEach(el => {
+                el.parentNode.classList.remove('hide');
+            });
+            break;
+        default: 
+            headlineGoods.forEach(el => {
+                el.innerText.toLowerCase().search(value) == -1 ?  el.parentNode.classList.add('hide') : el.parentNode.classList.remove('hide');
+            });
+            break;
+    }
