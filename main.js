@@ -113,3 +113,15 @@ search.oninput = () => {
             });
             break;
     }
+
+    //check if search results are left
+    const resultСheck = Array.from(document.querySelectorAll('.goods')).every(el =>  el.classList.contains('hide'));
+
+    if (resultСheck) {
+        if (noResults.classList.contains('hide')) {
+            noResults.classList.remove('hide');
+        } 
+    } else if (!noResults.classList.contains('hide')) {
+        noResults.classList.add('hide');
+    }
+}
