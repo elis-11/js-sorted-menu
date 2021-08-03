@@ -23,3 +23,15 @@ const listGoods = [
         rated: 4.1,
         img: 'https://github.com/egormolchanov/sort-goods/blob/master/image/laptop4.jpg?raw=true'
     },
+    {
+        name: 'Laptop Acer Nitro 5 AN515-42-R0HW NH.Q3RER.006',
+        cost: 919,
+        rated: 3.9,
+        img: 'https://github.com/egormolchanov/sort-goods/blob/master/image/laptop5.jpg?raw=true'
+    },
+    {
+        name: 'Laptop ASUS F540MB-GQ102T',
+        cost: 383,
+        rated: 3.8,
+        img: 'https://github.com/egormolchanov/sort-goods/blob/master/image/laptop6.jpg?raw=true'
+    },
