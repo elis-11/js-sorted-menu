@@ -48,3 +48,24 @@ const listGoods = [
         img: 'https://github.com/egormolchanov/sort-goods/blob/master/image/laptop8.jpg?raw=true'
     }
 ];
+
+const dropDownList = document.querySelector('.drop-down-list'),
+      dropSownListOption = document.querySelectorAll('.drop-down-list__option'),
+      showcaseGoods = document.querySelector('.showcase-goods');
+
+
+const addGoods = () => {
+    showcaseGoods.innerHTML = '';
+    listGoods.forEach(el => {
+        showcaseGoods.innerHTML += 
+            `<div class="goods">
+                <img src="${el.img}" alt="">
+                <h3 class="goods-text">${el.name}</h3>
+                <p class="goods-text">${el.cost} USD</p>
+            </div>`
+    })
+
+    noResults.classList.add('hide');
+}
+
+addGoods();
