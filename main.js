@@ -35,3 +35,16 @@ const listGoods = [
         rated: 3.8,
         img: 'https://github.com/egormolchanov/sort-goods/blob/master/image/laptop6.jpg?raw=true'
     },
+    {
+        name: 'Laptop Apple MacBook Pro 13 i5 2.3/8/256Gb SG',
+        cost: 1763,
+        rated: 3.5,
+        img: 'https://github.com/egormolchanov/sort-goods/blob/master/image/laptop7.jpg?raw=true'
+    },
+    {
+        name: 'Laptop Acer Swift 3 SF314-54-35YY NX.GYGER.007',
+        cost: 674,
+        rated: 3.4,
+        img: 'https://github.com/egormolchanov/sort-goods/blob/master/image/laptop8.jpg?raw=true'
+    }
+];
