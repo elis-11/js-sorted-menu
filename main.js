@@ -77,3 +77,19 @@ const dropDown = () => {
     arrowButton.classList.toggle('arrow-bottom');
     arrowButton.classList.toggle('arrow-top');
 }
+
+//sorting goods
+const sortGoods = event => {
+    listGoods.sort((a, b) => {
+        switch (event.target.innerHTML) {
+            case 'Price (high-low)':
+                return b.cost - a.cost;
+            case 'Price (low-high)':
+                return a.cost - b.cost;
+            case 'Top Rated':
+                return b.rated - a.rated;
+        }
+    });
+    
+    addGoods();
+}
