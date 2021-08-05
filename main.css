@@ -4,7 +4,7 @@
 
 body {
     font-family: 'Lucida Sans', Verdana, sans-serif;
-    background:  #75b4c0;
+    background:  #e6e1db;
     user-select: none;
 }
 
@@ -122,6 +122,7 @@ nav {
     width: 250px;
     padding: 10px;
     background: white;
+    
   }
   .goods img {
     width: 100%;
@@ -155,7 +156,7 @@ nav {
     width: 100%;
     min-width: 270px;
     max-width: 400px;
-    background: wheat;
+    background: rgb(219, 219, 219);
     border-radius: 10px;
     padding: 10px;
     font-family: 'Signika', sans-serif;
