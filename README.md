@@ -1,2 +1,2 @@
 # js-sorted-menu
-js-sorted-menu.vercel.app
+https://js-sorted-menu.vercel.app
