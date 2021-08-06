@@ -1,2 +1,2 @@
 # js-sorted-menu
-https://elis-sorted-menu.netlify.app/
+js-sorted-menu.vercel.app
