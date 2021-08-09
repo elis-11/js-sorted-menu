@@ -61,7 +61,7 @@ const addGoods = () => {
             `<div class="goods">
                 <img src="${el.img}" alt="">
                 <h3 class="goods-text">${el.name}</h3>
-                <p class="goods-text">${el.cost} USD</p>
+                <p class="goods-text">${el.cost} EUR</p>
             </div>`
     })
 
